@@ -11,10 +11,12 @@ import AppErrorPage from "../Pages/AppErrorPage";
   {
     path:'/',
     element:<MainLayout />,
+    hydrateFallbackElement:<p>Loading...</p>,
     // errorElement:<ErrorPage></ErrorPage>,
     children:[{
     index:true,
-    element:<Home />
+    element:<Home />,
+    loader:()=> fetch('./data.json'),
   },
   {
     path:'/apps',

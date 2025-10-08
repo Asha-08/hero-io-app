@@ -2,7 +2,7 @@ import React from 'react'
 import appError from "../assets/App-Error.png";
 import { NavLink } from 'react-router';
 
-const AppErrorPage = () => {
+const AppErrorPage = ({onGoBack}) => {
   return (
     <div>
         <div className="flex flex-col items-center justify-center text-center  mx-auto bg-base-200">
@@ -15,10 +15,10 @@ const AppErrorPage = () => {
       <p className="py-4 text-gray-700">
         The App you are requesting is not found on our system.  please try another apps
       </p>
-      <NavLink to="/apps" className="btn my-6 text-white" style={{
+      <button onClick={onGoBack} className="btn my-6 text-white" style={{
         background:
           "linear-gradient(90deg, #632EE3 0% , #9F62F2 100%)",
-      }}>Go Back !</NavLink>
+      }}>Go Back !</button>
       </div>
           
         </div>
