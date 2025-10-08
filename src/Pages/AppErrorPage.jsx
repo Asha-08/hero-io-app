@@ -1,29 +1,29 @@
 import React from 'react'
-import error from "../assets/error-404.png"
-import { NavLink } from 'react-router'
+import appError from "../assets/App-Error.png";
+import { NavLink } from 'react-router';
 
-const ErrorPage = () => {
+const AppErrorPage = () => {
   return (
     <div>
         <div className="flex flex-col items-center justify-center text-center  mx-auto bg-base-200">
 
           <div className='mt-12'>
-            <img src={error} alt="" />
+            <img src={appError} alt="" />
           </div>
           <div className="max-w-md">
-            <h1 className="text-5xl font-bold text-gray-700 ">Oops, page not found!</h1>
+            <h1 className="text-5xl font-bold text-gray-700 ">OPPS!! APP NOT FOUND</h1>
       <p className="py-4 text-gray-700">
-        The page you are looking for is not available.
+        The App you are requesting is not found on our system.  please try another apps
       </p>
-      <NavLink to="/" className="btn my-6 text-white" style={{
+      <NavLink to="/apps" className="btn my-6 text-white" style={{
         background:
           "linear-gradient(90deg, #632EE3 0% , #9F62F2 100%)",
       }}>Go Back !</NavLink>
       </div>
           
         </div>
-        </div>
+    </div>
   )
 }
 
-export default ErrorPage
+export default AppErrorPage

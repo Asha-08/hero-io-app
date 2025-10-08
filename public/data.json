@@ -1,0 +1,290 @@
+[
+  {
+    "id": 1,
+    "image": "https://ibb.co.com/k65rwYHK",
+    "title": "Forest: Focus for Productivity",
+    "companyName": "SeekrTech",
+    "description": "Stay focused and plant virtual trees that grow when you avoid distractions. Each session helps your forest thrive and tracks your productivity over time. Visualize your progress in a fun and meaningful way. Beat phone addiction and focus on what truly matters. Build sustainable focus habits every day.",
+    "size": 45,
+    "reviews": 523000,
+    "ratingAvg": 4.8,
+    "downloads": "10M+",
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 2000 },
+      { "name": "3 star", "count": 4000 },
+      { "name": "4 star", "count": 10000 },
+      { "name": "5 star", "count": 50000 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://ibb.co.com/jv0DsVh6",
+    "title": "SmPlan: ToDo List with Reminder",
+    "companyName": "Smartly Labs",
+    "description": "Organize your daily life with a simple yet powerful to-do list. Add reminders, deadlines, and categories to stay on top of your goals. Sync across all devices for easy access anywhere. Prioritize tasks smartly with AI suggestions. Keep your productivity organized and stress-free every day.",
+    "size": 38,
+    "reviews": 187000,
+    "ratingAvg": 4.6,
+    "downloads": "9M+",
+    "ratings": [
+      { "name": "1 star", "count": 1500 },
+      { "name": "2 star", "count": 2500 },
+      { "name": "3 star", "count": 5000 },
+      { "name": "4 star", "count": 13000 },
+      { "name": "5 star", "count": 45000 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://ibb.co.com/8nPhj61c",
+    "title": "FLIP - Focus Timer for Study",
+    "companyName": "RinaSoft",
+    "description": "Turn your phone into a study tracker with FLIP’s clean and minimal timer. Stay productive using focus sessions and break intervals. Join study groups and compare your progress with others. Track detailed study analytics and trends. Build consistency with every study session you complete.",
+    "size": 52,
+    "reviews": 412000,
+    "ratingAvg": 4.7,
+    "downloads": "8M+",
+    "ratings": [
+      { "name": "1 star", "count": 2500 },
+      { "name": "2 star", "count": 3000 },
+      { "name": "3 star", "count": 5000 },
+      { "name": "4 star", "count": 11000 },
+      { "name": "5 star", "count": 46000 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://ibb.co.com/RGrfvjtJ",
+    "title": "Pomocat - Cute Pomodoro Timer",
+    "companyName": "PomoStudio",
+    "description": "Boost your focus with adorable cat companions cheering you on. Work in 25-minute sessions followed by relaxing breaks. Collect cute rewards for consistent productivity. Customize sounds, themes, and cats for motivation. Study and work can finally be cute, calm, and productive.",
+    "size": 41,
+    "reviews": 93000,
+    "ratingAvg": 4.5,
+    "downloads": "5M+",
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 2000 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "4 star", "count": 7000 },
+      { "name": "5 star", "count": 25000 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://ibb.co.com/kg6MzsYX",
+    "title": "Time Planner: Schedule & Tasks",
+    "companyName": "ReachApp Co.",
+    "description": "Plan your days, weeks, and months with smart visual schedules. Create categories for work, study, and personal goals. Track how you spend your time and find patterns easily. Balance productivity with rest through detailed analytics. Simplify your time management like never before.",
+    "size": 60,
+    "reviews": 310000,
+    "ratingAvg": 4.6,
+    "downloads": "12M+",
+    "ratings": [
+      { "name": "1 star", "count": 4000 },
+      { "name": "2 star", "count": 3500 },
+      { "name": "3 star", "count": 6000 },
+      { "name": "4 star", "count": 15000 },
+      { "name": "5 star", "count": 52000 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://ibb.co.com/zHZL1PZb",
+    "title": "Morning Habits - Daily Routine",
+    "companyName": "RiseUp Studio",
+    "description": "Start your mornings with purpose and structure. Create routines for exercise, journaling, and mindfulness. Track streaks and stay motivated with visual progress. Wake up happier and more consistent every day. Transform your mornings into the best part of your day with ease.",
+    "size": 42,
+    "reviews": 274000,
+    "ratingAvg": 4.7,
+    "downloads": "9M+",
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 2500 },
+      { "name": "3 star", "count": 4000 },
+      { "name": "4 star", "count": 10000 },
+      { "name": "5 star", "count": 40000 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://ibb.co.com/NdxMfCmQ",
+    "title": "Focus Plant: Pomodoro Forest",
+    "companyName": "Shikudo",
+    "description": "Grow digital plants by staying focused and completing tasks. Each session nourishes your plant and rewards your consistency. Collect and upgrade unique species as you stay productive. Compete with friends and share your forest growth. Stay motivated through fun and eco-friendly focus tracking.",
+    "size": 48,
+    "reviews": 394000,
+    "ratingAvg": 4.8,
+    "downloads": "7M+",
+    "ratings": [
+      { "name": "1 star", "count": 1500 },
+      { "name": "2 star", "count": 2000 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "4 star", "count": 9000 },
+      { "name": "5 star", "count": 47000 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://ibb.co.com/4nKm6zKq",
+    "title": "Alarmy - Alarm Clock & Sleep",
+    "companyName": "DelightRoom",
+    "description": "Wake up refreshed with smart alarm challenges that actually get you out of bed. Choose from photo, math, or shake missions. Track your sleep quality and build better habits. Customize soothing wake sounds for peaceful mornings. Never oversleep again with the world’s most powerful alarm app.",
+    "size": 35,
+    "reviews": 580000,
+    "ratingAvg": 4.8,
+    "downloads": "10M+",
+    "ratings": [
+      { "name": "1 star", "count": 4000 },
+      { "name": "2 star", "count": 3000 },
+      { "name": "3 star", "count": 5000 },
+      { "name": "4 star", "count": 12000 },
+      { "name": "5 star", "count": 60000 }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "https://ibb.co.com/twqYhkj7",
+    "title": "MindMate - Focus & Calm",
+    "companyName": "AuraWorks",
+    "description": "Calm your mind and focus better with guided breathing and relaxation sounds. MindMate helps reduce stress while keeping your goals in sight. Track daily moods and focus levels with personalized insights. Create a calm workspace anytime, anywhere. Transform your focus through mindfulness.",
+    "size": 39,
+    "reviews": 154000,
+    "ratingAvg": 4.5,
+    "downloads": "6M+",
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 1900 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "4 star", "count": 6000 },
+      { "name": "5 star", "count": 25000 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://ibb.co.com/p6pgmvNj",
+    "title": "TaskHero - Gamified To-Do List",
+    "companyName": "PixelPlay Labs",
+    "description": "Turn your daily tasks into exciting quests and level up your life. Earn coins, badges, and achievements as you stay productive. Customize your avatar and unlock rewards for consistency. Perfect for gamers who love productivity. Make your to-do list fun, engaging, and rewarding every day.",
+    "size": 50,
+    "reviews": 278000,
+    "ratingAvg": 4.7,
+    "downloads": "11M+",
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 2500 },
+      { "name": "3 star", "count": 5000 },
+      { "name": "4 star", "count": 11000 },
+      { "name": "5 star", "count": 49000 }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "https://ibb.co.com/Kz2tWPt4",
+    "title": "StudySync - Focus Together",
+    "companyName": "FocusLink",
+    "description": "Join live focus rooms with students around the world. Stay accountable and motivated with group study timers. Track your productivity stats after every session. Collaborate and build better habits with community support. Stay consistent with your focus and achieve study success together.",
+    "size": 46,
+    "reviews": 244000,
+    "ratingAvg": 4.6,
+    "downloads": "9M+",
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 2400 },
+      { "name": "3 star", "count": 4200 },
+      { "name": "4 star", "count": 9500 },
+      { "name": "5 star", "count": 41000 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "https://ibb.co.com/3yXrFX9h",
+    "title": "FocusMate - Deep Work Timer",
+    "companyName": "ZenDev",
+    "description": "Eliminate distractions and dive into deep work with this minimal timer. FocusMate helps you maintain flow through structured sessions. Analyze your focus score and daily performance trends. Block unwanted apps automatically while you work. Reach peak productivity effortlessly every day.",
+    "size": 44,
+    "reviews": 127000,
+    "ratingAvg": 4.5,
+    "downloads": "5M+",
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 2500 },
+      { "name": "4 star", "count": 5500 },
+      { "name": "5 star", "count": 23000 }
+    ]
+  },
+  {
+    "id": 13,
+    "image": "https://ibb.co.com/qYq9dg6L",
+    "title": "HabitFlow - Routine Tracker",
+    "companyName": "Growly Tech",
+    "description": "Build habits that last through visual streak tracking and progress charts. Set daily goals and monitor your achievements over time. Receive gentle reminders and motivational quotes. Stay consistent with powerful routines for self-growth. Turn small actions into long-term success.",
+    "size": 40,
+    "reviews": 97000,
+    "ratingAvg": 4.6,
+    "downloads": "7M+",
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 1800 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "4 star", "count": 8000 },
+      { "name": "5 star", "count": 26000 }
+    ]
+  },
+  {
+    "id": 14,
+    "image": "https://ibb.co.com/jmgpYNq",
+    "title": "SleepSync - Smart Sleep Tracker",
+    "companyName": "DreamLabs",
+    "description": "Track your sleep cycles with precision and wake up at the perfect time. SleepSync analyzes patterns to improve rest quality. Pair with soothing sounds and bedtime reminders. Review daily sleep insights and long-term graphs. Build healthier rest habits and wake up energized each day.",
+    "size": 55,
+    "reviews": 183000,
+    "ratingAvg": 4.8,
+    "downloads": "8M+",
+    "ratings": [
+      { "name": "1 star", "count": 1700 },
+      { "name": "2 star", "count": 2100 },
+      { "name": "3 star", "count": 3600 },
+      { "name": "4 star", "count": 9200 },
+      { "name": "5 star", "count": 38000 }
+    ]
+  },
+  {
+    "id": 15,
+    "image": "https://ibb.co.com/j9sQtgkM",
+    "title": "LifeTracker - All in One Journal",
+    "companyName": "NovaTech",
+    "description": "Manage tasks, notes, and habits all in one elegant app. LifeTracker helps you balance goals and mental wellness together. Add reflections, checklists, and insights easily. Track your emotional progress through journaling. Simplify personal growth and stay organized every single day.",
+    "size": 53,
+    "reviews": 222000,
+    "ratingAvg": 4.7,
+    "downloads": "10M+",
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 2500 },
+      { "name": "3 star", "count": 4700 },
+      { "name": "4 star", "count": 10200 },
+      { "name": "5 star", "count": 43000 }
+    ]
+  },
+  {
+    "id": 16,
+    "image": "https://ibb.co.com/ZzF8bQVb",
+    "title": "MindFocus - Productivity Partner",
+    "companyName": "BrightApps",
+    "description": "Your personal productivity companion for deep work and focus. Create customizable focus sessions with relaxing ambient sounds. Track your achievements and unlock motivational badges. Integrate calendar and reminders for smooth scheduling. Stay sharp, mindful, and distraction-free every day.",
+    "size": 47,
+    "reviews": 195000,
+    "ratingAvg": 4.6,
+    "downloads": "9M+",
+    "ratings": [
+      { "name": "1 star", "count": 1800 },
+      { "name": "2 star", "count": 2200 },
+      { "name": "3 star", "count": 4100 },
+      { "name": "4 star", "count": 9500 },
+      { "name": "5 star", "count": 39000 }
+    ]
+  }
+]
