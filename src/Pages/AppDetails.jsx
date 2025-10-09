@@ -1,10 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import { useParams } from "react-router";
 import useProducts from "../Hooks/useProducts";
 import iconDownload from "../assets/icon-downloads.png";
 import iconRating from "../assets/icon-ratings.png";
 import iconReview from "../assets/icon-review.png";
-import Barchart from "../Components/Barchart";
+
 import {
   BarChart,
   Bar,
@@ -14,8 +14,11 @@ import {
   CartesianGrid,
   ResponsiveContainer,
 } from "recharts";
+import { toast } from "react-toastify";
 
 const AppDetails = () => {
+  const [isInstalled, setIsInstalled] = useState(false);
+
   const { id } = useParams();
   const { products, loading, error } = useProducts();
   const product = products.find((p) => String(p.id) === id);
@@ -31,9 +34,25 @@ const AppDetails = () => {
     reviews,
     size,
     description,
-    ratings,
+    
   } = product;
-  // console.log(product)
+
+  const handleInstall = () => {
+  const existingList = JSON.parse(localStorage.getItem("install")) || [];
+
+  if (existingList.some(p => p.id === product.id)) {
+    toast.info("Already installed");
+    setIsInstalled(true); // ensure button disabled if already installed
+    return;
+  }
+
+  const updatedList = [...existingList, product];
+  localStorage.setItem("install", JSON.stringify(updatedList));
+
+  setIsInstalled(true);
+  toast.success("App Installed Successfully!");
+};
+
   return (
     <div className="w-11/12 mx-auto">
       <div className="flex flex-col md:flex-row items-center md:items-start  gap-5  bg-base-100 p-5">
@@ -76,8 +95,8 @@ const AppDetails = () => {
             </div>
           </div>
           <div>
-            <button className="btn bg-[#00D390] text-white">
-              Install Now ({size}MB)
+            <button onClick={handleInstall} disabled={isInstalled} className="btn bg-[#00D390] text-white">
+              {isInstalled ? "Installed" : `Install Now (${product.size}MB)`}
             </button>
           </div>
           <hr className="border-gray-300 my-5" />
