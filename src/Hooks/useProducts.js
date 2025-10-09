@@ -8,7 +8,7 @@ const useProducts = ()=>{
 
     useEffect(()=>{
         setLoading(true)
-        axios('./data.json').then(data=>setProducts(data.data)).catch(err=>setError(err)).finally(()=>setLoading(false))
+        axios('../data.json').then(data=>setProducts(data.data)).catch(err=>setError(err)).finally(()=>setLoading(false))
 
     },[])
 

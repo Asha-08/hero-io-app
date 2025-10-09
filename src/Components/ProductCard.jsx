@@ -1,11 +1,13 @@
 import React from 'react'
 import iconDownload from "../assets/icon-downloads.png"
 import iconRating from "../assets/icon-ratings.png"
+import { Link } from 'react-router'
 
 const ProductCard = ({product}) => {
-    const {title,ratingAvg,image,downloads
+    const {title,ratingAvg,image,downloads,id
 } =product
   return (
+    <Link to={`/apps/${id}`}className='block no-underline '>
     <div className="card bg-base-100 border shadow-sm hover:scale-105 transition ease-in-out">
   <figure className='h-52 overflow-hidden'>
     <img className='w-52 object-cover'
@@ -20,6 +22,7 @@ const ProductCard = ({product}) => {
         <p className='text-purple-400 font-semibold flex items-center'><img className='h-4' src={iconRating} alt="" />{ratingAvg}</p>
     </div>
 </div>
+    </Link>
   )
 }
 

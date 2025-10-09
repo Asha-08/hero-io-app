@@ -6,6 +6,7 @@ import MainLayout from "../Layouts/MainLayout";
 import Installations from "../Pages/Installations";
 import ErrorPage from "../Pages/ErrorPage";
 import AppErrorPage from "../Pages/AppErrorPage";
+import AppDetails from "../Pages/AppDetails";
 
  export const router = createBrowserRouter([
   {
@@ -16,7 +17,7 @@ import AppErrorPage from "../Pages/AppErrorPage";
     children:[{
     index:true,
     element:<Home />,
-    loader:()=> fetch('./data.json'),
+    
   },
   {
     path:'/apps',
@@ -25,11 +26,16 @@ import AppErrorPage from "../Pages/AppErrorPage";
   },
   {
     path:'/installations',
-    element:<Installations />
+    element:<Installations />,
   },
   {
     path:'*',
-    element:<ErrorPage />
+    element:<ErrorPage />,
+  },
+  {
+    path:'/apps/:id',
+    element:<AppDetails></AppDetails>
+
   }
     ]
   },
