@@ -8,7 +8,7 @@ const ProductCard = ({product}) => {
 } =product
   return (
     <Link to={`/apps/${id}`}className='block no-underline '>
-    <div className="card bg-base-100 border shadow-sm hover:scale-105 transition ease-in-out">
+    <div className="card bg-base-100  shadow-sm hover:scale-105 transition ease-in-out">
   <figure className='h-52 overflow-hidden'>
     <img className='w-52 object-cover'
       src={image}

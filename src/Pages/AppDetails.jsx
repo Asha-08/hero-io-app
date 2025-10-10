@@ -15,6 +15,7 @@ import {
   ResponsiveContainer,
 } from "recharts";
 import { toast } from "react-toastify";
+import LoadingSpinner from "../Components/LoadingSpinner";
 
 const AppDetails = () => {
   const [isInstalled, setIsInstalled] = useState(false);
@@ -23,7 +24,9 @@ const AppDetails = () => {
   const { products, loading, error } = useProducts();
   const product = products.find((p) => String(p.id) === id);
 
-  if (loading) return <p>loading...</p>;
+  if (loading) {
+      return <LoadingSpinner /> 
+    }
 
   const {
     image,

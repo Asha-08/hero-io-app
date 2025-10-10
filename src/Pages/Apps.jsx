@@ -1,17 +1,45 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import useProducts from '../Hooks/useProducts'
 import ProductCard from '../Components/ProductCard'
 import AppErrorPage from './AppErrorPage'
 import { FaSearch } from 'react-icons/fa'
+import LoadingSpinner from '../Components/LoadingSpinner'
 
 
 const Apps = () => {
-  const {products} =useProducts()
+  const {products,loading} =useProducts()
   const [search,setSearch] = useState('')
+   const [searchLoading, setSearchLoading] = useState(false)
+  const [searchedProduct, setSearchedProduct] = useState([])
 
-  const term = search.trim().toLocaleLowerCase()
-  const searchedProduct = term? products.filter(product=>product.title.toLocaleLowerCase().includes(term)) : products
+  // const term = search.trim().toLocaleLowerCase()
+  // const searchedProduct = term? products.filter(product=>product.title.toLocaleLowerCase().includes(term)) : products
   
+  // if (loading) {
+  //     return <LoadingSpinner /> 
+  //   }
+
+    useEffect(() => {
+    setSearchLoading(true)
+
+    const delayApp = setTimeout(() => {
+      const term = search.trim().toLowerCase()
+      const filteredApp = term
+        ? products.filter((product) =>
+            product.title.toLowerCase().includes(term)
+          )
+        : products
+      setSearchedProduct(filteredApp)
+      setSearchLoading(false)
+    }, 200) // 400ms debounce App (natural feel)
+
+    return () => clearTimeout(delayApp)
+  }, [search, products])
+
+  if (loading || searchLoading) {
+    return <LoadingSpinner />
+  }
+
   if(searchedProduct.length===0 && search){
     return <AppErrorPage onGoBack={()=>setSearch('')}></AppErrorPage>
   }
@@ -44,3 +72,5 @@ const Apps = () => {
 }
 
 export default Apps
+
+

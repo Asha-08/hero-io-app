@@ -3,6 +3,7 @@ import Banner from '../Components/Banner'
 import { NavLink  } from 'react-router'
 import ProductCard from '../Components/ProductCard'
 import useProducts from '../Hooks/useProducts'
+import LoadingSpinner from '../Components/LoadingSpinner'
 
 const Home = () => {
  
@@ -10,7 +11,9 @@ const Home = () => {
   
   const featuredProducts = products.slice(0,8)
   // console.log(products)
-  
+  if (loading) {
+    return <LoadingSpinner />     // spinner দেখাবে
+  }
   
   return (
     

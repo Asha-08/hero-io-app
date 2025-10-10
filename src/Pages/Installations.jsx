@@ -2,18 +2,29 @@ import React, { useEffect, useState } from 'react'
 import iconDownload from "../assets/icon-downloads.png"
 import iconRating from "../assets/icon-ratings.png"
 import { parseDownloads } from '../Hooks/utils'
+import { toast } from 'react-toastify'
+import LoadingSpinner from '../Components/LoadingSpinner'
 
 const Installations = () => {
-  const [install,setIstall]=useState([])
+  const [install,setInstall]=useState([])
 
   const [sortOrder,setSortOrder] = useState('none')
+  const [loading, setLoading] = useState(true)
 
   useEffect(() =>{
      const savedList = JSON.parse(localStorage.getItem('install'))
-     if (savedList) setIstall(savedList)
+     if (savedList) setInstall(savedList)
+      
   },[])
+  useEffect(() => {
+    const timer = setTimeout(() => setLoading(false), 300)
+    return () => clearTimeout(timer)
+  }, [])
 
-  
+  if (loading) {
+      return <LoadingSpinner /> 
+    }
+
   const sortedItem = ()=>{
     if(sortOrder === 'download-asc'){
       return[...install].sort((a,b)=>parseDownloads(a.downloads) - parseDownloads(b.downloads))
@@ -26,17 +37,19 @@ const Installations = () => {
 
 
   const handleUninstall = id=>{
-    const existingList = JSON.parse(localStorage.getItem('install'))
+    const existingList = JSON.parse(localStorage.getItem('install')) || []
     let updateList = existingList.filter(p=> p.id !==id)
-    setIstall(updateList)
+    setInstall(updateList)
     localStorage.setItem('install',JSON.stringify(updateList))
+    toast.info('App UnInstall successfully')
 
   }
 
+  
   return (
     <div className='space-y-6 bg-white'>
       <div className='text-center py-5 w-11/12 mx-auto '>
-        <h1 className='font-bold text-4xl'>Your Installed Apps</h1><br />
+        <h1 className='font-bold text-4xl'>My Installation</h1><br />
              <p>Explore All Trending Apps on the Market developed by us</p>
         <div className='flex flex-col lg:flex-row justify-between items-center '>
               <p className='font-semibold text-xl text-gray-700'>({install.length}) Apps Found</p>
